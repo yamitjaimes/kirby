@@ -1,0 +1,51 @@
+.Kirby{ height:400px;
+    width: 400px;
+    border-radius: 50%; 
+    margin: 100px auto;
+    background: linear-gradient(#fcc0cc, #fcc0cc, #f96778); 
+    position: relative;
+    border: #000 8px solid;}
+
+.manoizquierda1{ position: absolute; width: 172px; height: 122px;background: #fcc0cc; border: #000 8px solid; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;z-index: -10; transform: translate(-35%); transform: rotate(48deg); left: -70px; top: 75px;}
+
+.manoizquierda2{ position: absolute; width: 172px; height: 122px;background: linear-gradient(#fcc0cc, #fcc0cc,  #fcc0cc, transparent); border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; transform: translate(-35%); transform: rotate(45deg); left: -62px; top: 82px;}
+
+.manoderecha1{ position: absolute; width: 180px; height: 130px;background: #fcc0cc; border: #000 8px solid; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; z-index: -10;transform: translate(-35%); transform: rotate(140deg); left: 280px; top: 70px;
+}
+
+.manoderecha2{ position: absolute; width: 172px; height: 122px;  
+    background: linear-gradient(transparent, #fcc0cc, #fcc0cc,#fcc0cc); border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+    transform: translate(-35%); transform: rotate(150deg); left: 280px; top: 79px;
+}
+
+.ojos{position: relative; top: 50px; left: 100px; margin-top:45px; margin-left:10px;width: 250px; height: 100px;
+    }
+
+.ojo{position: relative; width: 30px; height: 100px; 
+    background: #000000;border-radius: 50%;
+    float: left; margin-left: 30px; 
+    background: linear-gradient(black,#134A88);border: #000 2px solid;}
+
+.brillo{position: relative; width: 10px; 
+    height: 20px;border-radius: 50%; background: white
+    ; border: #000 2px solid;margin-left: 10px}
+
+.mejillas{width: 340px; height: 60px;margin-top:45px; margin-left:30px;;position: absolute;}
+
+.mejillaizquierda{height: 50px; width: 80px; border-radius: 50%;background: #f96778;position: relative;}
+
+.mejilladerecha{height: 50px; width: 80px; border-radius: 50%;background: #f96778;margin-left:250px;position: relative;
+    margin-top: -50px}
+
+.boca{position: relative;width: 50px; height: 100px; top: 100px; left:170px; background: #000000;border-radius: 50%;border: #000 2px solid}
+.lengua{position: relative;width: 40px; height: 60px; top: 35px; left:3px; background:#f96778;border-radius: 50%;border: #000 2px solid}
+
+.zapatoizquierdo{ position: absolute; width: 180px; height: 130px; 
+    background: brown; border: #000 8px solid; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; z-index: -10;
+    transform: translate(-35%); transform: rotate(300deg); left: 10px; top: 300px;}
+
+.zapatoderecho{ position: absolute; width: 150px; height: 130px; 
+        background: brown; border: #000 8px solid; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; 
+        transform: translate(-35%); transform: rotate(0deg); left: 210px; top: 320px;}
+
